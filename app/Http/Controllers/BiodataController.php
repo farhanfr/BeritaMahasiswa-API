@@ -10,6 +10,7 @@ class BiodataController extends Controller
 
 	private $statusSuccess=200;
 	private $statusErr=500;
+    private $statusNotFound=404;
 
     public function edit_bio(Request $request)
     {
